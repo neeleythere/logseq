@@ -2,3 +2,4 @@
   https://www.getpagespeed.com/work/proper-use-of-ssh-client-in-mac-os-x
 - How to Report Bugs Effectively #way-of-working
   https://www.chiark.greenend.org.uk/~sgtatham/bugs.html
+- Blog of tech personJulia Evans
