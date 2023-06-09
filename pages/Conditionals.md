@@ -1,16 +1,11 @@
-- ## If statement
+- ## If statement #cpp 
   Defined like so:
   ```cpp
   if (condition)	{
   	// code to execute if true
   }
   ```
-  
-  
-  
-  
-  
-  ## Else statement
+- ## Else statement #cpp 
   Defined like so:
   ```cpp
   if (condition)	{
@@ -20,7 +15,6 @@
   	// code to execute if false
   }
   ```
--
 ## Else if statement
 ```cpp
 if (condition1) {
