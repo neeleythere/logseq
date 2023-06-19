@@ -1,13 +1,11 @@
-# Associative Array (map/dictionary)
-Otherwise known as a *dictionary*, or even a *hash map*, an associative array allows you to store data as key-value pairs. A key of choice can be the index of a value of choice.
-
-Key-value pairs are stored as `std::pair` objects. A `std::pair` object has two member variables: `.first` (the key), and `.second` (the value).
-
+- # Associative Array (map/dictionary) #cpp 
+  Otherwise known as a *dictionary*, or even a *hash map*, an associative array allows you to store data as key-value pairs. A key of choice can be the index of a value of choice.
+  
+  Key-value pairs are stored as `std::pair` objects. A `std::pair` object has two member variables: `.first` (the key), and `.second` (the value).
 ## Unordered Map vs Ordered Map
 The `unordered_map` stores elements in no particular order. This means that searching, inserting and deleting is typically faster.
 
 A `map`, on the other hand, sorts integer keys in ascending order.
-
 ## Creating a map
 In order to make use of the associative array data structure, the appropriate libraries must first be included:
 ```cpp
@@ -48,22 +46,20 @@ country_codes.erase("Germany");
 `.count()` returns the number of occurences in a map for the specifed key. Since maps do not allow for duplicate keys, this will return `1` if the key is present.
 ```cpp
 if (country_codes.count("Belgium")) {
-  std::cout << "There is a code for Belgium";
+std::cout << "There is a code for Belgium";
 }
 else {
-  std::cout << "There isn't a code for Belgium";
+std::cout << "There isn't a code for Belgium";
 }
 ```
 ### Accessing elements
 Like most other languages, you can use square brackets to index a value using its key. If the key does not exist – the specified value is inserted at that key.
 
 To avoid this, the `.at()` method can be used. This will thow an `out_of_range` exception if nothing has been defined under the given key.
-
 ### Size of a map
 The `.size()` method returns the number of elements in a map.
 
 `.empty()` returns a boolean indicating whether the map is empty.
-
 ## Iterating through a map
 A `for-each` loop is best suited for a map. The `.first` and `.second` member variables of the `std::pair` object is also well suited for this.
 ```cpp
