@@ -1,24 +1,24 @@
-## Defining Classes
-Classes are defined by the `class` keyword. Like so:
-```cpp
-class School {
-
-};
-```
-Note the trailing semicolon.
-## Attribute and Method Definition
-Attributes (member variables) and methods (member functions) are defined as follows. `public` denotes that the attributes and methods are available from outside of the eventual object.
-```cpp
-class School {
-	public:
-std::string name;
-int age;
-
-void banner() {
-	std::cout << name << " is " << age << "years old.\n";
-}
-};
-```
+- ## Defining Classes #cpp 
+  Classes are defined by the `class` keyword. Like so:
+  ```cpp
+  class School {
+  
+  };
+  ```
+  Note the trailing semicolon.
+- ## Attribute and Method Definition #cpp 
+  Attributes (member variables) and methods (member functions) are defined as follows. `public` denotes that the attributes and methods are available from outside of the eventual object.
+  ```cpp
+  class School {
+  	public:
+  std::string name;
+  int age;
+  
+  void banner() {
+  	std::cout << name << " is " << age << "years old.\n";
+  }
+  };
+  ```
 ## Defining a Method Outside of a Class
 It is common to see method definition outside of the class. In such a case, the `banner` method from above would be defined like so:
 ```cpp
