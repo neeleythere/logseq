@@ -44,20 +44,20 @@
   	}
   ...	
   ```
-## Member initializer lists
-When dealing with `const` or reference variables, the logic outlined above would raise an error as you are technically reassigning the value of such a variable.
-
-To help with this, a "member initializer list" can be used. The following example uses this logic.
-```cpp
-class Book {
-private:
-	const std::string title;
-	const int pages;
-
-public:
-	Book()
-: title("Diary"), pages(100) {} // <- member initializer list
-};
-```
-
-The member initializer list must be followed by curly braces (`{}`), as this is still a constructor function. You could even place code within the constructor's body if needed.
+- ## Member initialiser lists #cpp
+  When dealing with `const` or reference variables, the logic outlined above would raise an error as you are technically reassigning the value of such a variable.
+  
+  To help with this, a "member initializer list" can be used. The following example uses this logic.
+  ```cpp
+  class Book {
+  private:
+  	const std::string title;
+  	const int pages;
+  
+  public:
+  	Book()
+  : title("Diary"), pages(100) {} // <- member initializer list
+  };
+  ```
+  
+  The member initializer list must be followed by curly braces (`{}`), as this is still a constructor function. You could even place code within the constructor's body if needed.

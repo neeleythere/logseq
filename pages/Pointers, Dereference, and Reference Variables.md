@@ -1,4 +1,4 @@
-## Summary
+- ## Summary #cpp
 - A *memory address* is where the value is stored by the computer.
 - A *pointer* stores a memory address of another value.
 	- To fetch the memory address of a value (which is subsequently stored as the pointer value), the `&` symbol is used.
@@ -6,14 +6,13 @@
 - *Dereferencing* is typically performed on a pointer, using the `*` asterisk symbol.
 	- This "unpacks" the memory address to "reveal" what is stored at the memory address.
 	- *Deferencing* allows you to manipulate the value which is stored at the *memory address* of the pointer.
-- A *reference variable* does not need to be *"dereferenced"* in order to "unpack" the referenced value. 
+- A *reference variable* does not need to be *"dereferenced"* in order to "unpack" the referenced value.
 	- It is commonly used in the context of function parameters: where the provided argument should not be copied, but instead modified directly.
-
 ## Memory Address
 You can reference the *memory address* of a variable using the `&` symbol as well.
 ```cpp
 std::string message = "Hello World!";
- 
+
 // Print the memory address of message (0x7ffee9b21af0)
 std::cout << &message << std::endl
 ```
@@ -47,7 +46,6 @@ std::cout << *ptr << std::endl;
 std::cout << day << std::endl;
 
 ```
-
 ### Null Pointer
 It is dangerous to leave a pointer variable uninitialised (idk why lol). If you are unsure where to point, assign that variable to `nullptr`, which is a keyword that provides a typesafe pointer value representing an empty pointer.
 ```cpp
@@ -55,8 +53,6 @@ int* ptr = nullptr;
 
 ```
 **Note:** In older C/C++ code, `NULL` was used for this purpose. `nullptr` is meant as a modern replacement to `NULL`.
-
-
 ## Reference Variable
 A reference is an alias (link) to an existing variable. It is declared using a `&` symbol between the data type and the variable name. Like so:
 ```cpp
@@ -69,7 +65,3 @@ References always need to be assigned a variable to "track". Therefore, if you c
 References cannot be reassigned (well you can, but it will fuck things up).
 
 **References are used for the purpose of parameters in a function.**
-
-
-
-
