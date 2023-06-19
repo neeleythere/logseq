@@ -1,11 +1,10 @@
-# Vectors
-Vectors are similar to arrays, however they are able to grow and shrink in size.
-
-In order to use the `vector` data type, you must include the vector library like so:
-```cpp
-#include <vector>
-```
-
+- # Vectors #cpp
+  Vectors are similar to arrays, however they are able to grow and shrink in size.
+  
+  In order to use the `vector` data type, you must include the vector library like so:
+  ```cpp
+  #include <vector>
+  ```
 ## Declaring a `vector`
 A vector containing `char` elements is declared like so:
 ```cpp
@@ -19,7 +18,6 @@ std::vector<char> alphabet { "a", "b", "c" };
 // this will also be accepted by the compiler
 std::vector alphabet { "a", "b", "c" };
 ```
-
 ## Methods
 - `.push_back()`
 - `.pop_back()`
@@ -27,7 +25,6 @@ std::vector alphabet { "a", "b", "c" };
 - `.back()`
 - `.size()`
 - `.empty()`
-
 ## Adding an element
 The `.push_back()` method reallocates the memory needed and adds the given value to the end of the vector.
 ```cpp
