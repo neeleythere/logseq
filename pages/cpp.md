@@ -1,4 +1,4 @@
-- # Arrays 
+- # Arrays #cpp 
   Arrays can be used to store multiple values under a single identifier.
   
   In C++, items within an array must be of the same type. Additionally, the size of the array must be specified.
