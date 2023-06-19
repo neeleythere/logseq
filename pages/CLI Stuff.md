@@ -14,14 +14,14 @@
   ```zsh
   ./greeting arg1 arg2
   ```
-  ### Using CLI Arguments
+- ### Using CLI Arguments
   In order to make use of any CLI arguments passed through, the `int main()` function needs to be adapted like so:
   ```cpp
   int main(int argc, char *argv[])
-  ```
--
-- `argc` (argument count) the number of CLI arguments passed. `argc` is at least 1 because the name of the program is seen as an argument.
-- `argv` (argument vector) is an array containing the values of the CLI arguments passed.
+  ````
+  `argc` (argument count) the number of CLI arguments passed. `argc` is at least 1 because the name of the program is seen as an argument.`
+  
+  argv` (argument vector) is an array containing the values of the CLI arguments passed.
   
   The following example prints the values of all CLI arguments passed:
   ```cpp
