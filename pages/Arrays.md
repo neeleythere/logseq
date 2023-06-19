@@ -1,8 +1,7 @@
-# Arrays 
-Arrays can be used to store multiple values under a single identifier.
-
-In C++, items within an array must be of the same type. Additionally, the size of the array must be specified.
-
+- # Arrays #cpp 
+  Arrays can be used to store multiple values under a single identifier.
+  
+  In C++, items within an array must be of the same type. Additionally, the size of the array must be specified.
 ## Declaring an Array
 To declare an array, state the data type and specify the size of the array like so:
 ```cpp
@@ -16,13 +15,11 @@ char grade[5]{ "A", "B", "B", "B", "C" };
 // length will automatically be calculated
 char grade[]{ "A", "B", "B", "B", "C" };
 ```
-
 ## Accessing Values
 As with other languages, you access elements by using square brackets `[i]`.
 ```cpp
 std::cout << grade[4] // output: "C"
 ```
-
 ## Multidimensional Arrays
 Multiple dimensions can be declared like so:
 ```cpp
@@ -33,7 +30,6 @@ int table[2][3]
 };
 ```
 In such a scenario, the length of the 2nd dimension **must** be provided.
-
 ## Iterating Through Arrays
 Iterating through arrays is typically performed with either a `for` loop or a `for-each` loop.
 
