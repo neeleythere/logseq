@@ -6,4 +6,6 @@
   https://jvns.ca
 - A "web-book" which summarises lots of Python tricks succinctly #tutorial #python 
   https://book.pythontips.com/en/latest/ternary_operators.html
+- Comprehensive guide on what will be asked in an interview #interview #website
+  https://www.techinterviewhandbook.org/algorithms/sorting-searching/
 -
