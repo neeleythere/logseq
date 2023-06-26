@@ -4,7 +4,7 @@
 		- Given: `[2, 3, 6, 1, 5, 4]`, `[3, 6, 1]` is a subarray. While `[3, 1, 5]` is not.
 	- ## Subsequence #card
 		- A subsequence is a sequence that can be derived without reordering elements, other than deleting existing elements.
-		- Given: `[2, 3, 6, 1, 5, 4]`, `[3, 1, 5]` is a sub
+		- Given: `[2, 3, 6, 1, 5, 4]`, `[3, 1, 5]` is a subsequence. While `[3]`
 		-
 -
 -
