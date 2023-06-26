@@ -18,13 +18,13 @@ std::vector<char> alphabet { "a", "b", "c" };
 // this will also be accepted by the compiler
 std::vector alphabet { "a", "b", "c" };
 ```
-## Methods
-- `.push_back()`
-- `.pop_back()`
-- `.front()`
-- `.back()`
-- `.size()`
-- `.empty()`
+- ## Methods #card
+	- `.push_back()`
+	- `.pop_back()`
+	- `.front()`
+	- `.back()`
+	- `.size()`
+	- `.empty()`
 ## Adding an element
 The `.push_back()` method reallocates the memory needed and adds the given value to the end of the vector.
 ```cpp
