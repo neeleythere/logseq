@@ -1,7 +1,7 @@
 - # Arrays #cpp 
   Arrays can be used to store multiple values under a single identifier.
   
-  In C++, items within an array must be of the same type. Additionally, the size of the array must be specified.
+  In C++, items within an array must be of the same type. Additionally, the size of the array must be specified. More commonly, #Vectors are used.
 ## Declaring an Array
 To declare an array, state the data type and specify the size of the array like so:
 ```cpp
