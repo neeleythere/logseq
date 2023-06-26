@@ -1,11 +1,7 @@
-- ## Subarray #[[Tech Interview]]  #card
+- #### Subarray #[[Tech Interview]]  #card
 	- A subarray is a sequence of values which follow the same order and data type (contiguous).
 	- Given: `[2, 3, 6, 1, 5, 4]`, `[3, 6, 1]` is a subarray. While `[3, 1, 5]` is not.
-- ## Subsequence #[[Tech Interview]] #card
+- #### Subsequence #[[Tech Interview]] #card
 	- A subsequence is a sequence that can be derived without reordering elements, other than deleting existing elements.
 	- Given: `[2, 3, 6, 1, 5, 4]`, `[3, 1, 5]` is a subsequence. While `[3, 1, 6]` is not.
-	-
--
--
--
 -
