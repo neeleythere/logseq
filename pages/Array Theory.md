@@ -1,4 +1,3 @@
--
-- ## Array Theory #[[Tech Interview]]
-	-
+- ## Subarray #[[Tech Interview]]
+	- A subarray is a sequence of values which follow the same order and data type (contig)
 -
