@@ -1,4 +1,4 @@
 - ## Subarray #[[Tech Interview]]
 	- A subarray is a sequence of values which follow the same order and data type (contiguous).
-	- Given: `{2, 3, 6, 1, 5, 4}`
+	- Given: `{2, 3, 6, 1, 5, 4}`, `{3, 6, 1}` is a subarray. While ``
 -
