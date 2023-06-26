@@ -3,7 +3,7 @@
 		- A subarray is a sequence of values which follow the same order and data type (contiguous).
 		- Given: `[2, 3, 6, 1, 5, 4]`, `[3, 6, 1]` is a subarray. While `[3, 1, 5]` is not.
 	- ## Subsequence #card
-		- A subsequence is a sequence that can be derived from a given array without reordering the elements, but can
+		- A subsequence is a sequence that can be derived without reordering the elements, other than deleting existing elements.
 -
 -
 -
