@@ -9,6 +9,8 @@
   
   public:
   	~House() {
-  std::cout << "Moved away from" << location;
+  		std::cout << "Moved away from" << location;
   	}
   };
+  ```
+-
