@@ -1,2 +1,2 @@
-- ## Chapter 1: The Basics
-  ### Initi
+- ### Initialization
+  Prefer curly-brace initialization
