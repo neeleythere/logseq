@@ -4,6 +4,7 @@
   double d1 {2.3};
   double d2 = {2.3}; // both good
   ```
-- Use `auto` when there is not a specific reason to mention the type. Wanting to be clear is a valid reason.
-- ### Initializing Objects
-  An object is iu
+- Use `auto` when there is not a specific reason to mention the type. Wanting to be clear is a valid reason to include the type.
+- ### Initializing Objects #cpp 
+  An object is initialized by the `new` keyword and deleted by the `delete` keyword.
+-
