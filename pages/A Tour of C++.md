@@ -4,5 +4,4 @@
   double d1 {2.3};
   double d2 = {2.3}; // both good
   ```
--
--
+- Use `auto` when there is not a specific ty
