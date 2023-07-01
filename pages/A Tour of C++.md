@@ -8,5 +8,5 @@
 - ### Initializing Objects #cpp 
   An object is initialized by the `new` keyword and deleted by the `delete` keyword.
 - ### Constants #cpp
-  There are essentially two
+  C++ offers two forms of *immutability*.
 -
