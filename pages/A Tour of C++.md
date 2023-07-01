@@ -8,5 +8,6 @@
 - ### Initializing Objects #cpp 
   An object is initialized by the `new` keyword and deleted by the `delete` keyword.
 - ### Constants #cpp
-  C++ offers two forms of *immutability*. Immutability is an important design choice as it offers
+  C++ offers two forms of *immutability*. Immutability is an important design choice as it offers stability and certainty.
+	- `const` is used to enforce be
 -
