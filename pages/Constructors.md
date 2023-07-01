@@ -24,7 +24,7 @@
   ```cpp
   class House {
   private:
-  	std::string location;
+    std::string location;
   	int rooms;
   
   public:
