@@ -9,6 +9,6 @@
   An object is initialized by the `new` keyword and deleted by the `delete` keyword.
 - ### Constants #cpp
   C++ offers two forms of *immutability*. Immutability is an important design choice as it is able to enhance stability and certainty.
-	- `const` is primarily used to enforce behaviour. The value of which can be computed at compile time. `const` is typically used in conjunction with [[Pointers & Reference Variables]] to
-	- `constexpr` is more literal, and results in the eventual value being placed in read-only memory.
+	- `const` is primarily used to enforce behaviour. The value of which can be computed at run time. `const` is typically used in conjunction with [[Pointers & Reference Variables]] to pass data into functions
+	- `constexpr` is more literal, the value of which must be known at compile time. Consequently, data results in the eventual value being placed in read-only memory.
 -
