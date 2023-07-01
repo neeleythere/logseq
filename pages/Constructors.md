@@ -10,11 +10,11 @@
   	int rooms;
   
   public:
-  	// default constructor
-  	House() {
-  location = "New York";
-  rooms = 5;
-  	}
+    // default constructor
+    House() {
+      location = "New York";
+      rooms = 5;
+    }
   };
   ```
 - ## Constructor with parameters #cpp 
@@ -30,8 +30,8 @@
   public:
   	// constructor with parameters
   	House(std::string loc, int num) {
-  location = loc;
-  rooms = num;
+        location = loc;
+        rooms = num;
   	}
   };
   ```
