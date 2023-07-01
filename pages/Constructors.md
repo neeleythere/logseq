@@ -25,14 +25,14 @@
   class House {
   private:
     std::string location;
-  	int rooms;
+    int rooms;
   
   public:
-  	// constructor with parameters
-  	House(std::string loc, int num) {
-        location = loc;
-        rooms = num;
-  	}
+    // constructor with parameters
+    House(std::string loc, int num) {
+      location = loc;
+      rooms = num;
+    }
   };
   ```
   
