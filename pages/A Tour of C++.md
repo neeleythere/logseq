@@ -14,6 +14,8 @@
 - ### Pass by Reference #cpp
   It is more efficient to pass a *reference* of a variable instead of *copying* a value of a variable in its entirety. Especially for *string* data types, for example. A `const` is used to guarantee that the referenced value is not modified within the scope of the function. An example:
   ```cpp
-  void printByReference(const int)
+  void printByReference(const int& ref) {
+    std::cout << ref << "\	"
+  }
   ```
 -
