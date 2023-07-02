@@ -20,7 +20,7 @@
   }
   
   int main() {
-    
+    int my_int {4};
     printByReference(my_int);
   }
   ```
