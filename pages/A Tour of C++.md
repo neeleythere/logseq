@@ -11,6 +11,6 @@
   C++ offers two forms of *immutability*. Immutability is an important design choice as it is able to enhance stability and certainty.
 	- `const` is primarily used to enforce behaviour. The value of a `const` can be computed at run time. This is typically used in conjunction with [[Pointers & Reference Variables]] to pass data into functions with a guarantee that it will not be modified.
 	- `constexpr` is more literal, the value of which must be known at compile time. Consequently, data is stored in read-only memory.
-- ### Pass by Reference
-  It is more efficient to pass a *reference* of a variable instead of copying its entirety, es
+- ### Pass by Reference #cpp
+  It is more efficient to pass a *reference* of a variable instead of copying its entirety. Especially for *string* data types, for example.
 -
