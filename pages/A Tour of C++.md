@@ -23,7 +23,7 @@
 	  constexpr double square(double x) {return x*x;}
 	  
 	  constexpr double max1 = square(3); // OK: constexpr was returned
-	  double max2 = square(val); // OK: just ur average muteable simp returned
+	  double max2 = square(val); // OK: just ur average mutable simp returned
 	  ```
 - ### Pass by Reference #cpp
   It is more efficient to pass a *reference* of a variable instead of *copying* a value of a variable in its entirety. Especially for *string* data types, for example. A `const` is used to guarantee that the referenced value is not modified within the scope of the function. An example:
