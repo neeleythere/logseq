@@ -20,6 +20,10 @@
 	- `const` is primarily used to enforce behaviour. The value of a `const` can be computed at run time. This is typically used in conjunction with [[Pointers & Reference Variables]] to pass data into functions with a guarantee that it will not be modified.
 	- `constexpr` is more literal, the value of which must be known at compile time. Consequently, data is stored in read-only memory. A function can be defined as evaluating to a `constexpr`, but the value returned is sometimes not a `constexpr`. This to cater to l-values without having to write the function twice. Consider:
 	  ```cpp
+	  constexpr double square(double x) {return x*x;}
+	  
+	  constexpr double max1 = square(3); // OK: constexpr was returned
+	  double max2 = square(val); // OK: just ur average muteable simp returned
 	  ```
 - ### Pass by Reference #cpp
   It is more efficient to pass a *reference* of a variable instead of *copying* a value of a variable in its entirety. Especially for *string* data types, for example. A `const` is used to guarantee that the referenced value is not modified within the scope of the function. An example:
