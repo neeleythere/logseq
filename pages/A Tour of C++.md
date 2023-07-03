@@ -27,4 +27,7 @@
 - ### 1.7 Pointers, Arrays and References #cpp
   Prefix `*` means "contents of", and prefix `&` means "address of".
   ```cpp
+  char* p = &v[3]; // stores the address of the 4th element
+  char x = *p; // access the value stored at p's address
   ```
+-
