@@ -25,3 +25,6 @@
   }
   ```
 - ### 1.7 Pointers, Arrays and References #cpp
+  Prefix `*` means "contents of", and prefix `&` means "address of".
+  ```cpp
+  ```
