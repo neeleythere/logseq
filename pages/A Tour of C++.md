@@ -8,7 +8,7 @@
 - ### Initializing Objects #cpp 
   An object is initialized by the `new` keyword and deleted by the `delete` keyword.
 - ### Declarator Operators
-  When used in declarations, operators such as `&`, `*`
+  When used in declarations, operators such as `&`, `*`, and `[]`
 - ### Constants #cpp
   C++ offers two forms of *immutability*. Immutability is an important design choice as it is able to enhance stability and certainty.
 	- `const` is primarily used to enforce behaviour. The value of a `const` can be computed at run time. This is typically used in conjunction with [[Pointers & Reference Variables]] to pass data into functions with a guarantee that it will not be modified.
