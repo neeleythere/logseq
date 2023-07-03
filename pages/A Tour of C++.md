@@ -10,6 +10,10 @@
 - ### Declarator Operators
   When used in declarations, operators such as `&`, `*`, and `[]` are called *declarator operators.*
   ```cpp
+  T a[n]; 
+  T* p;
+  T& r;
+  T f(A);
   ```
 - ### Constants #cpp
   C++ offers two forms of *immutability*. Immutability is an important design choice as it is able to enhance stability and certainty.
