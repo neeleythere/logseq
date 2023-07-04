@@ -59,16 +59,16 @@ By using mutator & accessor functions (setters and getters) you can safely modif
   ```cpp
   class Clock {
   private:
-  	int time = 1200;
-  
+    int time = 1200;
+    
   public:
-  	int getTime() {
-  return time;
-  	}
+    int getTime() {
+  	return time;
+    }
   
-  	void setTime(int new_time) {
-  time = new_time;
-  	}
+    void setTime(int new_time) {
+  	time = new_time;
+    }
   }
   
   int main() {
