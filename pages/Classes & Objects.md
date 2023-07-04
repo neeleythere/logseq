@@ -53,31 +53,32 @@ This is most commonly used for the purpose of methods.
 *Encapsulation* is the concept that information pertaining to an object isn't openly accessible to the entire program.
 
 By using mutator & accessor functions (setters and getters) you can safely modify members of a class.
-## Mutator & Accessor Functions (setters & getters)
-An *accessor function* enables the visibility of a member without directly exposing it. A *mutator function* allows the modification of members, but by shielding operations in a dedicated function, control is still held on how a value is modified.  
-
-```cpp
-class Clock {
-private:
-	int time = 1200;
-
-public:
-	int getTime() {
-return time;
-	}
-
-	void setTime(int new_time) {
-time = new_time;
-	}
-}
-
-int main() {
-	Clock alarm;
-
-	// print the time
-	std::cout << alarm.getTime();
-
-	// set the time to 930
-	alarm.setTime(930);
-
-}
+- ## Mutator & Accessor Functions (setters & getters)
+  An *accessor function* enables the visibility of a member without directly exposing it. A *mutator function* allows the modification of members, but by shielding operations in a dedicated function, control is still held on how a value is modified.  
+  
+  ```cpp
+  class Clock {
+  private:
+  	int time = 1200;
+  
+  public:
+  	int getTime() {
+  return time;
+  	}
+  
+  	void setTime(int new_time) {
+  time = new_time;
+  	}
+  }
+  
+  int main() {
+  	Clock alarm;
+  
+  	// print the time
+  	std::cout << alarm.getTime();
+  
+  	// set the time to 930
+  	alarm.setTime(930);
+  
+  }
+  ```
