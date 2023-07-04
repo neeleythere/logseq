@@ -45,4 +45,4 @@
   char x = *p; // access the value stored at p's address
   ```
 - ### Use of `.` and `->` #cpp
-  A dot `.` is used to access a member through name or reference `&`. An arrow `->` is used to access
+  A dot `.` is used to access a member through name or reference `&`. An arrow `->` is used to access members through a pointer.
