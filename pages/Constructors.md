@@ -55,9 +55,9 @@
   	const int pages;
   
   public:
-  	Book()
-  : title("Diary"), pages(100) {} // <- member initializer list
+  	Book() : title("Diary"), pages(100) {} // <- member initializer list
   };
   ```
   
   The member initializer list must be followed by curly braces (`{}`), as this is still a constructor function. You could even place code within the constructor's body if needed.
+-
