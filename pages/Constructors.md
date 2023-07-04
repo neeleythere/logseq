@@ -58,6 +58,7 @@
   	Book() : title("Diary"), pages(100) {} // <- member initializer list
   };
   ```
+  Note that you can use curly braces `{}` to form the member initializer list
   
   The member initializer list must be followed by curly braces (`{}`), as this is still a constructor function. You could even place code within the constructor's body if needed.
 -
